@@ -11,6 +11,6 @@
   document.querySelector(".dice1").setAttribute("src", "images/dice"+random1+".png");
   document.querySelector(".dice2").setAttribute("src", "images/dice"+random2+".png");
 
-  if (random1 > random2) document.querySelector("h1").innerText = "ผู้เล่น 1 ชนะ";
-  else if (random1 === random2) document.querySelector("h1").innerText = "เสมอกัน";
-  else document.querySelector("h1").innerText = "ผู้เล่น 2 ชนะ";
+  if (random1 > random2) document.querySelector("h1").innerText = "ผู้เล่น 1 ชนะ !!";
+  else if (random1 === random2) document.querySelector("h1").innerText = "เสมอกัน !!";
+  else document.querySelector("h1").innerText = "ผู้เล่น 2 ชนะ !!";
